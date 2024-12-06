@@ -1,7 +1,7 @@
-import Body from '@/Components/Body'
-import Footer from '@/Components/Footer'
-import FooterFinal from '@/Components/FooterFinal'
-import Navbar from '@/Components/Navbar'
+import Body from '@/app/Components/Body'
+import Footer from '@/app/Components/Footer'
+import FooterFinal from '@/app/Components/FooterFinal'
+import Navbar from '@/app/Components/Navbar'
 import React from 'react'
 
 const Home = () => {
