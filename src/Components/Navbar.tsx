@@ -12,7 +12,7 @@ const Navbar = () => {
                 {navData.map((items) => {
                     console.log(items)
                     return (
-                        <a href="" className='text-gray-600 hover:text-purple-600 p-4'> {items}</a>
+                        <a href="#" className='text-gray-600 hover:text-purple-600 p-4' key={items}> {items}</a>
                     )
                 })}
                 <a href="" className='text-gray-50 hover:bg-purple-800 bg-purple-600  px-3 py-2 rounded-full '>
